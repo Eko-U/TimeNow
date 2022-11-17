@@ -17,8 +17,7 @@ html {
 
 body {
   box-sizing: border-box;
-  /* font-family: 'Inter', sans-serif; */
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
   line-height: 1.7;
   color: var(--color-black-light);
 }
@@ -85,7 +84,7 @@ body {
 /* BODY COPY */
 
 .body-copy {
-  font-size: 1.7rem
+  font-size: 1.6rem
 }
 
 .body-copy--small {
@@ -324,8 +323,7 @@ body {
 }
 
 .list--links   {
-  /* font-family: 'Inter', sans-serif; */
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
   text-decoration: none;
   color: var(--color-grey);
 }
@@ -500,7 +498,7 @@ body {
 
 
 .form input {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 2rem;
   border: none;
   color: var(--color-grey);
