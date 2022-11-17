@@ -507,7 +507,8 @@ body {
 
 .pricing-items {
   display: grid;
-  grid-template-columns: min-content max-content;
+  grid-auto-flow: column;
+  grid-auto-columns: min-content 1fr;
   align-items: center;
   gap: 1.2rem;
 }
