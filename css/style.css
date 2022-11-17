@@ -285,7 +285,7 @@ body {
   grid-row: 1 / 2;
 
   display: grid;
-  grid-template-columns: subgrid;
+  grid-template-columns: minmax(min-content, 10rem) 1fr minmax(min-content, 10rem);
 }
 
 .nav {
@@ -390,7 +390,7 @@ body {
   padding: 7rem 0;
   background-color: var(--color-secondary);
   display: grid;
-  grid-template-columns: subgrid;
+  grid-template-columns: minmax(min-content, 10rem) 1fr minmax(min-content, 10rem);
 }
 
 .features-container {
@@ -558,7 +558,7 @@ body {
 .pricing {
   grid-column: 1 / -1;
   display: grid;
-  grid-template-columns: subgrid;
+  grid-template-columns: minmax(min-content, 10rem) 1fr minmax(min-content, 10rem);
 }
 
 .pricing-cards {
@@ -629,5 +629,14 @@ body {
     padding-right: 2rem;
     padding-left: 2rem;
   }
-  
+
+}
+
+@supports (grid-template-columns: subgrid) {
+  .navigation,
+  .features,
+  .pricing {
+    grid-template-columns: subgrid;
+    
+  }
 }
