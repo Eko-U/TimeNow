@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"> 
+
   <link href="css/style.css" rel="stylesheet">
+  
   <title>TimeNow | Landing Page</title>
 </head>
 <body>
@@ -26,7 +29,10 @@
             <a href="./page/pricing.html" class="list--links body-copy">Pricing</a>
           </li>
         </ul>
-        <a href="#" class="block btn btn--fill btn--round">Start Scheduling</a>
+        <a href="#" class="block btn btn--fill btn--round nav--btn">Start Scheduling</a>
+        <svg class="icon nav--menu">
+          <use xlink:href="img/sprite.svg#icon-menu"></use>
+        </svg>
       </nav>
     </div>
     <header class="header">
@@ -39,8 +45,8 @@
             <span class="body-copy--big block font-weight">With TimeNow, automatically schedule your posts on Twitter, LinkedIn, and Instagram to post wheny your followers are more active.</span>
           </h1>
           <div class="button mg-b-sm">
-            <a href="#" class="block btn btn--fill btn--round">Start Scheduling</a>
-            <a href="#" class="block btn btn--outline">View Demo</a>
+            <a href="#" class="block btn btn--fill btn--round txt-center">Start Scheduling</a>
+            <a href="#" class="block btn btn--outline txt-center">View Demo</a>
           </div>
           <div class="grid-center">
             <svg class="icon">
@@ -141,7 +147,7 @@
         <h3 class="heading-3 mg-b-sm">Try TweetNow</h3>
         <form class="form">
         <input type="email" name="email" id="" placeholder="Email Address">
-         <a  href="#" class="block btn btn--fill btn--round">Start Scheduling</a>
+         <a  href="#" class="block btn btn--fill btn--round txt-center">Start Scheduling</a>
         </form>
       </div>
     </footer>
