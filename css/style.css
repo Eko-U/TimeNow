@@ -18,7 +18,6 @@ html {
 body {
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;
-  font-family: 'Nunito', sans-serif;
   line-height: 1.7;
   color: #414040;
 }
@@ -291,7 +290,6 @@ body {
 
 .list--links   {
   font-family: 'Inter', sans-serif;
-  font-family: 'Nunito', sans-serif;
   text-decoration: none;
   color: var(--color-grey);
 }
@@ -447,7 +445,6 @@ body {
 
 .form input {
   font-family: 'Inter', sans-serif;
-  font-family: 'Nunito', sans-serif;
   font-size: 2rem;
   border: none;
   color: var(--color-grey);
